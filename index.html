@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/style.css">
+	<title>TEST</title>
+</head>
+
+<body>
+
+<div class="header-fixed">
+	<div class="header-top">
+		<div class="header-top__border">
+			<div class="header-top__menu">
+				<a href="#">Главная</a>
+				<a href="#">О компании</a>
+				<a href="#">Ссылка 1</a>
+				<a href="#">Ссылка 2</a>
+				<a href="#">Ссылка 3</a>
+			</div>
+			<div class="header-top__signup">
+				<button class="signup">
+					<img src="Image/Sign_up.png" alt="Упс">
+					<span>Вход</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wraper">
+	<header>
+		
+		<div class="header-bottom">
+			<div class="header-bottom__logo">
+				<img src="Image/Test.png" alt="Упс">
+			</div>
+			<div class="header-bottom__phone">
+				<p>+380 98 170 00 740</p>
+				<p>+380 98 170 00 740</p>
+				<button class="phone">
+					<img src="Image/Phone.png" alt="Упс">
+					<span>Перезвонить мне</span>
+				</button>
+			</div>
+			<div class="header-bottom__option">
+				<button class="compare">
+					<img src="Image/Comparison.png" alt="Упс">
+					<span>сравнение</span>
+				</button>
+				<button class="favorites">
+					<img src="Image/Selected.png" alt="Упс">
+					<span>избранное</span>
+				</button>
+				<button class="basket">
+					<div class="basket-massege">
+						<div class="basket-massege__field">
+							<span class="basket-massege__span">5</span>
+						</div>
+						<div class="basket-massege__triagle"></div>
+					</div>
+					<img src="Image/Basket.png" alt="Упс">
+					<span>корзина</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<div class="main-menu">
+		<div class="sidebar">
+			<div class="sidebar-top">
+				<div class="sidebar-top__burger">
+					<img src="/Image/burger.png" alt="Упс">
+				</div>
+				<div class="sidebar-top__topic"><p>Меню</p></div>
+			</div>
+			<div class="sidebar-bottom">
+				<ul>
+				<li><a href="#">ссылка 1 <span>❯</span></a></li>
+				<li><a href="#">ссылка 2 <span>❯</span></a></li>
+				<li><a href="#">ссылка 3 <span>❯</span></a></li>
+				<li><a href="#">ссылка 4 <span>❯</span></a></li>
+				<li><a href="#">ссылка 5 <span>❯</span></a></li>
+				<li><a href="#">ссылка 6 <span>❯</span></a></li>
+				<li><a href="#">ссылка 7 <span>❯</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="search">
+			<div class="search-panel">
+				<form action="#">
+					<input placeholder="Поиск по сайту" tabindex="4" type="text" name="search">
+				</form>
+				<div class="search-panel__all-category">
+					<button class="all-category">Все категории <span>▼</span></button>
+				</div>
+				<div class="search-button">
+					<button><span>Поиск</span></button>
+				</div>
+			</div>
+			<div class="filter">
+				<div class="filter-panel">
+					<nav class="filter-panel__tab">
+						<a href="#tab_01" class="panel-tab">
+							<img class="tab-01" src="/Image/Tabs/car-sedan (1).svg" alt="Упс">
+							<p>Ссылка 1</p>
+						</a>
+						<a href="#tab_02" class="panel-tab">
+							<img class="tab-02" src="/Image/Tabs/car-truck (1).svg" alt="Упс">
+							<p>Ссылка 2</p>
+						</a>
+						<a href="#tab_03" class="panel-tab">
+							<img class="tab-03" src="/Image/Tabs/car-rim (1).svg" alt="Упс">
+							<p>Ссылка 3</p>
+						</a>
+						<a href="#tab_04" class="panel-tab">
+							<img class="tab-04" src="/Image/Tabs/motor-oil (1).svg" alt="Упс">
+							<p>Ссылка 4</p>
+						</a>
+						<a href="#tab_05" class="panel-tab">
+							<img class="tab-05" src="/Image/Tabs/car-battery (1).svg" alt="Упс">
+							<p>Ссылка 5</p>
+						</a>
+					</nav>
+				</div>
+				<div class="filter-content">
+					<div class="filter-content__tab">
+						<a id="tab_1" href="#tab_1" class="content-tab active__content-tab">
+							<p>Tab 1</p>
+						</a>
+						<a id="tab_2" href="#tab_2" class="content-tab">
+							<p>Tab 2</p>
+						</a>
+					</div>
+					<div class="filter-content__tab-body">
+						<div id="#tab_01" class="filter-content__tab-block">
+							<div class="filter-content__selected">
+								<button id="tab_select1" class="select">Select 1<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 2<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 3<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 4<span>▼</span></button>
+								<button id="tab_select2" class="select1">Select 5<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 6<span>▼</span></button>
+								<button id="tab_select2" class="select1">Select 7<span>▼</span></button>
+								<form action="#">
+									<div class="selected-price"><p>Цена</p></div>
+									<input id="min-price" placeholder="0" tabindex="5" type="number" name="min-price">
+									<input id="max-price" placeholder="250000" tabindex="6" type="number" name="max-price">
+								</form>
+							</div>
+							<div class="filter-bottom">
+								<button class="clear">✕ Очистить фильтр</button>
+								<button class="apply">Применить фильтр</button>
+							</div>
+						</div>
+						<div id="#tab_02" class="filter-content__tab-block">
+							<div class="filter-content__selected">
+								<button id="tab_select1" class="select">Select 1<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 2<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 3<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 4<span>▼</span></button>
+								<button id="tab_select2" class="select1">Select 5<span>▼</span></button>
+								<button id="tab_select1" class="select">Select 6<span>▼</span></button>
+								<button id="tab_select2" class="select1">Select 7<span>▼</span></button>
+								<form action="#">
+									<div class="selected-price"><p>Цена</p></div>
+									<input id="min-price" placeholder="0" tabindex="5" type="number" name="min-price">
+									<input id="max-price" placeholder="250000" tabindex="6" type="number" name="max-price">
+								</form>
+							</div>
+							<div class="filter-bottom">
+								<button class="clear">✕ Очистить фильтр</button>
+								<button class="apply">Применить фильтр</button>
+							</div>
+						</div>
+						<div id="#tab_03" class="filter-content__tab-block"></div>
+						<div id="#tab_04" class="filter-content__tab-block"></div>
+						<div id="#tab_05" class="filter-content__tab-block"></div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="goods">
+		<div class="goods-top">
+			<div class="goods-top__topic"><p>Карточки товаров</p></div>
+			<div class="goods-top__link"><a href="#">Ссылка в каталог<span>➝</span></a></div>
+		</div>
+		<div class="goods-flex">
+			<div class="goods-body__first">
+				<div class="goods-body__border">
+					<div class="goods-body__mark"><p>Mark</p></div>
+					<div class="goods-body__name"><a href="#">Антифриз Fosser Antifreeze <br>
+						FA 12 Readymix 1 л Concentrat, Germany</a></div>
+					<div class="goods-body__info">
+						<div class="goods-body__review">
+							<p class="star">★★★★★</p>
+							<a href="#" class="review-text">Отзыв(10)</a>
+						</div>
+						<div class="goods-body__presence">
+							<p>В наличии: 24шт.</p>
+						</div>
+					</div>
+					<div class="goods-body__image">
+						<div class="goods-body__image-content">
+							<div class="image-content__category">
+								<img src="/Image/summer.svg" alt="Упс">
+								<p>летняя</p>
+								<img src="/Image/car.svg" alt="Упс">
+								<p>легковая</p>
+								<img src="/Image/new.svg" alt="Упс">
+								<p>новая</p>
+							</div>
+							<div class="image-content__general">
+								<img src="/Image/Wheel1.png" alt="Упс">
+							</div>
+						</div>
+						<div class="goods-body__image-footer">
+							<div class="image-footer__border">
+								<div class="green-tag"><p>новинка</p></div>
+								<div class="purple-tag"><p>хит</p></div>
+								<div class="red-tag"><p>скидка</p></div>
+							</div>
+						</div>
+					</div>
+					<div class="goods-body__price">
+						<p class="active-price">599<span>грн.</span></p>
+						<p class="passive-price">1250 грн.</p>
+					</div>
+					<div class="goods-body__buy">
+						<button>
+							<img src="/Image/icon-basket-white.svg" alt="Упс">
+							<span>купить товар</span>
+						</button>
+					</div>
+					<div class="goods-body__footer">
+						<button>
+							<img src="/Image/icon-comparison-orange.svg" alt="Упс">
+							<span>Сравнить товар</span>
+						</button>
+						<button>
+							<img src="/Image/icon-favorites-orange.svg" alt="Упс">
+							<span>В избранное</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="goods-body__second">
+				<div class="goods-body__border">
+					<div class="goods-body__mark"><p>Mark</p></div>
+					<div class="goods-body__name"><a href="#">Антифриз Fosser Antifreeze <br>
+						FA 12 Readymix 1 л Concentrat, Germany</a></div>
+					<div class="goods-body__info">
+						<div class="goods-body__review">
+							<p class="star">★★★<span>★★</span></p>
+							<a href="#" class="review-text">Отзыв(10)</a>
+						</div>
+						<div class="goods-body__presence">
+							<p>В наличии: 24шт.</p>
+						</div>
+					</div>
+					<div class="goods-body__image">
+						<div class="goods-body__image-content">
+							<div class="image-content__category">
+								<img src="/Image/summer.svg" alt="Упс">
+								<p>летняя</p>
+								<!--<img src="/Image/car.svg" alt="Упс">
+								<p>легковая</p>-->
+								<img src="/Image/new.svg" alt="Упс">
+								<p>новая</p>
+							</div>
+							<div class="image-content__general">
+								<img src="/Image/Wheel2.png" alt="Упс">
+							</div>
+						</div>
+						<div class="goods-body__image-footer">
+							<div class="image-footer__border">
+								<div class="green-tag"><p>новинка</p></div>
+								<div class="purple-tag"><p>хит</p></div>
+								<!--<div class="red-tag"><p>скидка</p></div>-->
+							</div>
+						</div>
+					</div>
+					<div class="goods-body__price">
+						<p class="active-price">599 <span>грн.</span></p>
+						<p class="passive-price">1250 грн.</p>
+					</div>
+					<div class="goods-body__buy">
+						<button>
+							<img src="/Image/icon-basket-white.svg" alt="Упс">
+							<span>купить товар</span>
+						</button>
+					</div>
+					<div class="goods-body__footer">
+						<button>
+							<img src="/Image/icon-comparison-orange.svg" alt="Упс">
+							<span>Сравнить товар</span>
+						</button>
+						<button>
+							<img src="/Image/icon-favorites-orange.svg" alt="Упс">
+							<span>В избранное</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="goods-body__third">
+				<div class="goods-body__border">
+					<div class="goods-body__mark"><p>Mark</p></div>
+					<div class="goods-body__name"><a href="#">Антифриз Fosser Antifreeze <br>
+						FA 12 Readymix 1 л Concentrat, Germany</a></div>
+					<div class="goods-body__info">
+						<div class="goods-body__review">
+							<p class="star">★★★★★</p>
+							<a href="#" class="review-text">Без отзывов</a>
+						</div>
+						<div class="goods-body__presence">
+							<p>В наличии: 24шт.</p>
+						</div>
+					</div>
+					<div class="goods-body__image">
+						<div class="goods-body__image-content">
+							<div class="image-content__category">
+								<img src="/Image/summer.svg" alt="Упс">
+								<p>летняя</p>
+								<img src="/Image/car.svg" alt="Упс">
+								<p>легковая</p>
+								<img src="/Image/new.svg" alt="Упс">
+								<p>новая</p>
+							</div>
+							<div class="image-content__general">
+								<img src="/Image/Wheel3.png" alt="Упс">
+							</div>
+						</div>
+						<div class="goods-body__image-footer">
+							<div class="image-footer__border">
+								<div class="green-tag"><p>новинка</p></div>
+								<!--<div class="purple-tag"><p>хит</p></div>
+								<div class="red-tag"><p>скидка</p></div>-->
+							</div>
+						</div>
+					</div>
+					<div class="goods-body__price">
+						<p class="active-price">9570 <span>грн.</span></p>
+						<p class="passive-price">11250 грн.</p>
+					</div>
+					<div class="goods-body__buy">
+						<button>
+							<img src="/Image/icon-basket-white.svg" alt="Упс">
+							<span>купить товар</span>
+						</button>
+					</div>
+					<div class="goods-body__footer">
+						<button>
+							<img src="/Image/icon-comparison-orange.svg" alt="Упс">
+							<span>Сравнить товар</span>
+						</button>
+						<button>
+							<img src="/Image/icon-favorites-orange.svg" alt="Упс">
+							<span>В избранное</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="goods-body__fourth">
+				<div class="goods-body__border">
+					<div class="goods-body__mark"><p>Mark</p></div>
+					<div class="goods-body__name"><a href="#">Антифриз Fosser Antifreeze <br></a></div>
+					<div class="goods-body__info">
+						<div class="goods-body__review">
+							<p class="star">★★★★★</p>
+							<a href="#" class="review-text">Отзыв(10)</a>
+						</div>
+						<div class="goods-body__presence">
+							<p>В наличии: 24шт.</p>
+						</div>
+					</div>
+					<div class="goods-body__image">
+						<div class="goods-body__image-content">
+							<div class="image-content__category">
+								<img src="/Image/summer.svg" alt="Упс">
+								<p>летняя</p>
+								<img src="/Image/car.svg" alt="Упс">
+								<p>легковая</p>
+								<!--<img src="/Image/new.svg" alt="Упс">
+								<p>новая</p>-->
+							</div>
+							<div class="image-content__general">
+								<img src="/Image/Wheel3.png" alt="Упс">
+							</div>
+						</div>
+						<div class="goods-body__image-footer">
+							<div class="image-footer__border">
+								<div class="green-tag"><p>новинка</p></div>
+								<div class="purple-tag"><p>хит</p></div>
+								<div class="red-tag"><p>скидка</p></div>
+							</div>
+						</div>
+					</div>
+					<div class="goods-body__price">
+						<p class="active-price">599 <span>грн.</span></p>
+						<p class="passive-price">1250 грн.</p>
+					</div>
+					<div class="goods-body__buy">
+						<button>
+							<img src="/Image/icon-basket-white.svg" alt="Упс">
+							<span>купить товар</span>
+						</button>
+					</div>
+					<div class="goods-body__footer">
+						<button>
+							<img src="/Image/icon-comparison-orange.svg" alt="Упс">
+							<span>Сравнить товар</span>
+						</button>
+						<button>
+							<img src="/Image/icon-favorites-orange.svg" alt="Упс">
+							<span>В избранное</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-border">
+			<div class="footer-content">
+				<div class="footer-content__newsletter">
+					<div class="newsletter-topic">
+						<p>Блок 1</p>
+					</div>
+					<div class="newsletter-form">
+						<div class="newsletter-form__text">
+							<p class="title">Будьте в курсе новостей и новинок!</p>
+							<p class="subtitle">Подписывайтесь на рассылку</p>
+						</div>
+						<form action="#">
+							<input placeholder="Укажите свой email для подписки" tabindex="7" type="text" name="email">
+							<button>Подписаться</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer-content__links">
+					<div class="block-first">
+						<div class="block-first__topic">
+							<p>Блок ссылок 1</p>
+						</div>
+						<div class="block-first__links">
+							<a href="#">Ссылка 1</a>
+							<a href="#">Ссылка 2</a>
+							<a href="#">Ссылка 3</a>
+							<a href="#">Ссылка 4</a>
+						</div>
+					</div>
+					<div class="block-second">
+						<div class="block-first__topic">
+							<p>Блок 2</p>
+						</div>
+						<div class="block-first__links">
+							<a href="#">Ссылка 1</a>
+							<a href="#">Ссылка 2</a>
+							<a href="#">Ссылка 3</a>
+							<a href="#">Ссылка 4</a>
+						</div>
+					</div>
+					<div class="block-third">
+						<div class="block-first__topic">
+							<p>Блок ссылок 3</p>
+						</div>
+						<div class="block-first__links">
+							<a href="#">Ссылка 1</a>
+							<a href="#">Ссылка 2</a>
+							<a href="#">Ссылка 3</a>
+							<a href="#">Ссылка 4</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-bottom__test">
+					<div class="footer-bottom__test-logo"><img src="/Image/Test_footer.png" alt="Упс"></div>
+					<div class="footer-bottom__test-text">
+						<p> © Copyrith 2017. Тестовое задание Wezom</p>
+					</div>
+				</div>
+				<div class="footer-bottom__social">
+					<a href="#"><img src="/Image/vk.png" alt="VK"></a>
+					<a href="#"><img src="/Image/facebook_footer.png" alt="Facebook"></a>
+					<a href="#"><img src="/Image/twiter_footer.png" alt="Twiter"></a>
+					<a href="#"><img src="/Image/youtube_footer.png" alt="YouTube"></a>
+				</div>
+				<div class="footer-bottom__wezom">
+					<div class="footer-bottom__wezom-logo">
+						<img src="/Image/wezom.png" alt="Упс">
+					</div>
+					<div class="footer-bottom__wezom-text">
+						<p class="info">Разработка тестового</p>
+						<p class="name">Wezom Agency</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer-background"></div>
+
+	<div id="popupFirst" class="popup-signup">
+		<div class="popup-signup__body">
+			<div class="popup-signup__content">
+				<a href="#" class="popup__close"></a>
+				<div class="block-first">
+					<form action="#" method="post" enctype="multipart/form-data">
+						<h1>Вход в личный кабинет</h1>
+						<div class="email">
+							<p>Ваш email</p>
+							<input placeholder="mikel_ivanov98@gmail.com" tabindex="1" type="text" name="email">
+						</div>
+						<div class="password">
+							<p>Пароль</p>
+							<input placeholder="*************" tabindex="2" type="password" name="password">
+						</div>
+						<div class="remember">
+							<input tabindex="3" type="checkbox" name="remember" value="yes">
+							<p>Запомнить меня</p>
+						</div>
+					</form>
+					<div class="linked">
+						<a href="#"><p>Забыли пароль?</p></a>
+						<a href="#"><p>Регистрация</p></a>
+					</div>
+					<button class="popup__signup-button">Войти в личный кабинет</button>
+				</div>
+				<div class="block-second">
+					<h1>Войти с помощью</h1>
+					<div class="social">
+						<button class="facebook">
+							<img src="Image/facebook.png" alt="Упс">
+							<span>Facebook</span>
+						</button>
+						<button class="twiter">
+							<img src="Image/Twiter.png" alt="Упс">
+							<span>Twitter</span>
+						</button>
+						<button class="google">
+							<img src="Image/Google.png" alt="Упс">
+							<span>Google</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-phone">
+		<div class="popup-phone__body">
+			<div class="popup-phone__content">
+				<a href="#" class="popup__close"></a>
+				<h1>Перезвоните мне</h1>
+				<form action="#">
+					<p>Номер телефона</p>
+					<input placeholder="+38(0__) ___ - __ - __" tabindex="8" type="number" name="phone">
+				</form>
+				<button id="popup-phone__button"><span>Перезвоните мне</span></button>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/JS/popup.js"></script>
+<script src="/JS/tab-panel.js"></script>
+<script src="/JS/tab-content.js"></script>
+
+</body>
+
+</html>
